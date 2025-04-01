@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "app-educ-center",
+          "appId": "1:823139512573:android:3ecfc479e8a4b529598e94",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "app-educ-center",
+          "configurations": {
+            "android": "1:823139512573:android:3ecfc479e8a4b529598e94",
+            "ios": "1:823139512573:ios:3dc820a8e08f92c5598e94",
+            "macos": "1:823139512573:ios:3dc820a8e08f92c5598e94",
+            "web": "1:823139512573:web:1004ae033a8c8b2e598e94",
+            "windows": "1:823139512573:web:2be048f601f3f267598e94"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
